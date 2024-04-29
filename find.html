@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var array = [4,2,5,8,2];
+        var result = array.find(function (x){
+            return x>4;
+        });
+        var result1 = array.findIndex(function (x){
+            return x>5;
+        });
+        document.write(result);
+        document.write("</br>")
+        document.write(result1);
+    </script>
+</body>
+</html>
